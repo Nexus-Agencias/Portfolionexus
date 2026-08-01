@@ -88,7 +88,7 @@ export default function PartnerSection() {
             {...fadeProps(inView, 0.1)}
             className="mb-12 text-center font-serif text-[48px] leading-none tracking-tight text-[#0D212C] md:text-[64px] lg:text-[80px]"
           >
-            Partner with us
+            Seja nosso parceiro
           </h2>
 
           <img
@@ -113,7 +113,7 @@ export default function PartnerSection() {
               className="h-10 w-10 rounded-full object-cover"
             />
             <span className="text-sm font-medium md:text-base">
-              Start chat with Cleverton Oliver
+              Iniciar conversa com Cleverton Oliver
             </span>
           </a>
         </div>

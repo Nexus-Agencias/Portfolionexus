@@ -16,35 +16,37 @@ const testimonials: Testimonial[] = [
     role: 'CEO',
     company: 'Data.storage',
     quote:
-      'With very little guidance team delivered designs that were consistently spot on...',
+      'Com muito pouca orientação, o time entregou designs que acertaram em cheio todas as vezes...',
     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
   },
   {
-    name: 'alexwu',
-    role: 'Founder',
+    name: 'Alex Wu',
+    role: 'Fundador',
     company: 'Nexgate',
-    quote: 'Cleverton Oliver led the creation of our best fundraising deck to date!...',
+    quote:
+      'Cleverton Oliver liderou a criação da nossa melhor apresentação de captação até hoje!...',
     avatar: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg',
   },
   {
     name: 'James Mitchell',
-    role: 'VP Product',
+    role: 'VP de Produto',
     company: 'LaunchPad',
-    quote: 'Working with Cleverton Oliver transformed our product vision...',
+    quote:
+      'Trabalhar com Cleverton Oliver transformou a visão do nosso produto...',
     avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
   },
   {
     name: 'Rachel Foster',
-    role: 'Co-founder',
+    role: 'Co-fundadora',
     company: 'Nexus Labs',
-    quote: 'The design quality exceeded our expectations...',
+    quote: 'A qualidade do design superou todas as nossas expectativas...',
     avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg',
   },
   {
     name: 'David Zhang',
-    role: 'Head of Design',
+    role: 'Diretor de Design',
     company: 'Paradigm Labs',
-    quote: 'Incredible work from start to finish...',
+    quote: 'Trabalho incrível do início ao fim...',
     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
   },
 ]
@@ -178,14 +180,14 @@ export default function TestimonialCarousel() {
         className="mb-12 flex flex-col items-start justify-between gap-6 px-6 md:ml-auto md:max-w-4xl md:flex-row md:items-center"
       >
         <h2 className="text-[32px] leading-[1.1] tracking-tight text-[#0D212C] md:text-[40px] lg:text-[44px]">
-          What <span className="font-serif">builders</span> say
+          O que os <span className="font-serif">clientes</span> dizem
         </h2>
         <div className="flex items-center gap-1">
           {Array.from({ length: 5 }).map((_, i) => (
             <Star key={i} className="h-5 w-5 fill-black text-black" />
           ))}
           <span className="ml-2 text-sm font-medium text-[#0D212C]">
-            Clutch 5/5
+            Avaliação 5/5
           </span>
         </div>
       </div>
@@ -224,7 +226,7 @@ export default function TestimonialCarousel() {
         <button
           type="button"
           onClick={prev}
-          aria-label="Previous testimonial"
+          aria-label="Depoimento anterior"
           className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-[#0D212C]/20 text-[#0D212C] transition-colors hover:bg-[#051A24] hover:text-white"
         >
           <ChevronLeft className="h-5 w-5" />
@@ -232,7 +234,7 @@ export default function TestimonialCarousel() {
         <button
           type="button"
           onClick={step}
-          aria-label="Next testimonial"
+          aria-label="Próximo depoimento"
           className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-[#0D212C]/20 text-[#0D212C] transition-colors hover:bg-[#051A24] hover:text-white"
         >
           <ChevronRight className="h-5 w-5" />
