@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3">
             <img
-              src="/photos/logo/logo.png"
+              src="./photos/logo/logo.png"
               alt="NEXUS"
               loading="lazy"
               className="h-16 w-16 rounded-full object-contain"

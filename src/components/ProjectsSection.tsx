@@ -11,37 +11,37 @@ const projects: Project[] = [
     name: 'Burger',
     description:
       'Hamburgueria artesanal — site institucional com cardápio digital e pedidos pelo WhatsApp.',
-    video: '/videos/2026-08-01 11-19-56.mp4',
+    video: './videos/2026-08-01 11-19-56.mp4',
   },
   {
     name: 'Pizzaria',
     description:
       'Pizzaria tradicional — site com cardápio, promoções e pedidos online.',
-    video: '/videos/2026-08-01 11-20-57.mp4',
+    video: './videos/2026-08-01 11-20-57.mp4',
   },
   {
     name: 'Roupas e Acessórios',
     description:
       'Loja de moda — e-commerce com vitrine digital e checkout otimizado.',
-    video: '/videos/2026-08-01 11-21-39.mp4',
+    video: './videos/2026-08-01 11-21-39.mp4',
   },
   {
     name: 'Esfirras e Tapiocas',
     description:
       'Casa de salgados — site institucional com cardápio e delivery pelo WhatsApp.',
-    video: '/videos/2026-08-01 11-23-22.mp4',
+    video: './videos/2026-08-01 11-23-22.mp4',
   },
   {
     name: 'Social Media',
     description:
       'Gestão de redes sociais — site com portfólio de conteúdo e formulário de orçamento.',
-    video: '/videos/2026-08-01 11-24-38.mp4',
+    video: './videos/2026-08-01 11-24-38.mp4',
   },
   {
     name: 'Lava-Jato e Estética',
     description:
       'Estética automotiva — site com serviços, agendamento e pacotes promocionais.',
-    video: '/videos/2026-08-01 11-25-32.mp4',
+    video: './videos/2026-08-01 11-25-32.mp4',
   },
 ]
 

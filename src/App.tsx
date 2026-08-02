@@ -60,7 +60,7 @@ function HeroBackground() {
       {heroLogos.map((l, i) => (
         <img
           key={`logo-${i}`}
-          src="/photos/logo/logo.png"
+          src="./photos/logo/logo.png"
           alt=""
           aria-hidden="true"
           className="hero-logo"
@@ -100,7 +100,7 @@ function Hero() {
       <HeroBackground />
       <div className="relative z-10 mx-auto flex w-full max-w-3xl flex-col items-center px-6 pt-12 text-center md:pt-16">
       <img
-        src="/photos/logo/logo.jpg"
+        src="./photos/logo/logo.jpg"
         alt="Logo da agência"
         className={`mb-4 w-32 md:w-40 ${
           inView ? 'animate-fade-in-up' : 'opacity-0'

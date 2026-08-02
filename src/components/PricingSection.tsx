@@ -20,7 +20,7 @@ export default function PricingSection() {
       <div className="mx-auto grid max-w-5xl grid-cols-1 items-center gap-8 md:grid-cols-2 md:gap-12">
         <img
           {...fadeProps(inView, 0.1)}
-          src="/photos/seo/foto 2.jpeg"
+          src="./photos/seo/foto 2.jpeg"
           alt="Cleverton Oliver, fundador da NEXUS"
           loading="lazy"
           className="w-full rounded-[40px] object-cover shadow-lg"

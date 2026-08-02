@@ -93,7 +93,7 @@ export default function PartnerSection() {
 
           <img
             {...fadeProps(inView, 0.2)}
-            src="/photos/seo/ad7b0d66-0b14-4f3d-933e-7e145fe7e0400.png"
+              src="./photos/seo/ad7b0d66-0b14-4f3d-933e-7e145fe7e0400.png"
             alt="Cleverton Oliver"
             loading="lazy"
             className="mb-12 w-full max-w-xs rounded-2xl shadow-lg"
@@ -107,7 +107,7 @@ export default function PartnerSection() {
             className="inline-flex items-center gap-3 rounded-full bg-[#051A24] py-2 pr-7 pl-2 text-white shadow-[0_1px_2px_0_rgba(5,26,36,0.1),0_4px_4px_0_rgba(5,26,36,0.09),0_9px_6px_0_rgba(5,26,36,0.05),0_17px_7px_0_rgba(5,26,36,0.01),0_26px_7px_0_rgba(5,26,36,0),inset_0_2px_8px_0_rgba(255,255,255,0.5)] transition-transform duration-200 hover:scale-[1.02] active:scale-[0.98]"
           >
             <img
-              src="/photos/seo/ad7b0d66-0b14-4f3d-933e-7e145fe7e0400.png"
+            src="./photos/seo/ad7b0d66-0b14-4f3d-933e-7e145fe7e0400.png"
               alt="Cleverton Oliver"
               loading="lazy"
               className="h-10 w-10 rounded-full object-cover"
