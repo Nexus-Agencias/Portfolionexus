@@ -1281,7 +1281,7 @@ export default function FluidCursor({
     }
 
     function generateColor(): ColorRGB {
-      const c = HSVtoRGB(Math.random(), 1.0, 1.0)
+      const c = HSVtoRGB(0.72 + (Math.random() - 0.5) * 0.08, 0.75 + Math.random() * 0.25, 1.0)
       c.r *= 0.15
       c.g *= 0.15
       c.b *= 0.15
